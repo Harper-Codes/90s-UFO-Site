@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg?w=740&t=st=1677558695~exp=1677559295~hmac=24728069ca57874c0c7fe7051d4da9092be21312d2fc370fb89c50dbd0551913);
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 100px;
+    margin: 40px;
+    padding: 10px;
+    /* background-color: black; */
+    border: 5px solid rgb(21, 192, 21);
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px 10px;
+}
+
+.header h1, p {
+    text-align: center;
+    font-family: "comic-sans";
+    color: red;
+    /* text-shadow: 2px 2px rgb(101, 104, 101); */
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.left-column {
+    background-color: red;
+    color: white;
+    width: 100px;
+}
+
+.center-column {
+    width: 600px;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+.right-column {
+    background-color: blue;
+    color: white;
+}
+
+
+.footer {
+    width: auto;
+    background: blue;
+}
