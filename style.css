@@ -23,6 +23,10 @@ ul {
 
 }
 
+.header-container {
+    display: flex;
+}
+
 .header-box {
     display: flex;
     flex-direction: column;
@@ -53,6 +57,30 @@ ul {
     text-shadow: 2px 2px black;
 }
 
+img {
+    width: 150px;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.img1 {
+    padding: 50px 10px 0 0;
+}
+
+.img2 {
+    padding: 50px 0 0 10px;
+}
+
+a {
+    color: yellow;
+    font-size: 20px;
+    padding: 20px;
+}
+
 .content-wrapper {
     display: flex;
     flex-flow: row wrap;
@@ -72,25 +100,33 @@ ul {
 .left-column {
     padding: 10px;
     max-width: 200px;
+    max-height: 500px;
     overflow-wrap: break-word;
+    overflow: scroll;
     /* background-color: blue; */
-    border: 5px solid grey;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(21, 192, 21);
     color: white;
 }
 
 .left-column h3 {
     font-style: italic;
+    color: white;
+    text-shadow: 2px 2px red;
+    padding: 10px;
+    text-align: center;
 }
 
 .center-column {
     max-width: 600px;
-    max-height: 700px;
+    max-height: 500px;
     overflow-wrap: break-word;
     overflow: scroll;
-    background-color: rgb(128, 126, 126);
+    background-color: rgba(128, 126, 126, 0.349);
     border: 5px solid black;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgb(21, 192, 21);
+    box-shadow: 2px 2px 20px rgb(21, 192, 21);
     color: white;
     
 }
@@ -109,18 +145,60 @@ ul {
 }
 
 .right-column {
-    padding: 10px;
     max-width: 200px;
+    max-height: 500px;
+    padding: 10px;
     overflow-wrap: break-word;
-    background-color: blue;
-    border: 5px solid grey;
+    overflow: scroll;
+    box-shadow: 2px 2px 5px rgb(21, 192, 21);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
     color: white;
 }
 
 .right-column h3 {
     font-style: italic;
+    color: rgb(124, 7, 105);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-align: center;
 }
 
+.abduction-container {
+    display: flex;
+    margin: 50px;
+}
+
+.abduction {
+    text-align: center;
+    padding: 20px;
+    color: orange;
+    background-color: rgba(128, 128, 128, 0.349);
+    border: 5px dashed yellow;
+}
+
+
+.abduction h1 {
+    margin: 10px;
+}
+
+.abduction-content p {
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.abduction-content ul {
+    text-align: left;
+    margin: 25px;
+    list-style-type: circle;
+}
+
+.abduction-symptoms {
+    margin: 25px;
+}
+
+.abduction-content {
+    display: flex;
+}
 
 .footer {
     width: auto;
